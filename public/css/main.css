@@ -1,0 +1,29 @@
+
+
+.drive .card {
+    background-color: #e5e5e6;
+    color: black;
+    padding: 15px;
+}
+
+.drive .card-body {
+    background-color: #f8fafc;
+    color: black;
+}
+
+.drive .home {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8fafc;
+}
+.drive .form-groub{
+    margin: 15px 0px;
+}
+
+
+.drive .modal-content{
+    background-color: #f8fafc;
+}
+.drive .modal-body{
+    background-color: #f8fafc;
+}
