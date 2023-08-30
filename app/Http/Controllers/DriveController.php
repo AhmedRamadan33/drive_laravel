@@ -67,7 +67,7 @@ class DriveController extends Controller
 
     // show and display More details about public Files only 
     public function showPublicFiles($id){
-        $drive = DB::table('joindriveswithusers')->get()->first();
+        $drive = DB::table('joindriveswithusers')->where('driveId',$id)->first();
         return view('drives.showPublicFiles',compact('drive'));
     }
 
